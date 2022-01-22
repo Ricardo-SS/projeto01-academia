@@ -1,0 +1,21 @@
+--------------------------------------------------------------
+CRIANDO UMA NOVA BRANCH COM BASE NA PRINCIPAL
+--------------------------------------------------------------
+01 - verificar em qual branch esta
+
+	git branch
+
+se estiver na principal prossiga par o passo 02, caso contrario seleciona a 
+principal usando o comando a seguir
+
+	git checkout nome-da-principal
+
+02 - BAIXAR A BRANCH PRINCIPAL.
+
+	git pull
+
+03 - criando uma novra branch a partir da principal
+
+	git checkout -b nome-da-nova-branch nome-da-principal
+
+04 - 
