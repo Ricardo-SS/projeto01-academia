@@ -31,7 +31,6 @@ da pasta atual serão adicionados ao controle de versão;
 --------------------------------------------------------------
 - Criando a primeira versão - Criando commits
 
-
 	git commit -m "commit inicial"
 
 --------------------------------------------------------------	
@@ -63,8 +62,31 @@ da pasta atual serão adicionados ao controle de versão;
 	git push --set-upstream origin master
 
 caso seja a primeira vez que esta usando vai aparecer a tela de loguin
-clik em entrar com navegador e depois em autorizar. Pronto os arquivos 
+clik em entrar com navegador e depois em autorizar. Pgit ronto os arquivos 
 serão enviado para o github.
 
+--------------------------------------------------------------
+ Criando um nova versão
+--------------------------------------------------------------
 
+	git commit -m "Arquivo de comandos atualizados"
+
+enviardo arquivos para nuvem
+
+	git push
+
+
+--------------------------------------------------------------
+ Verificando historico de versão
+--------------------------------------------------------------
+
+	git reflog
+
+--------------------------------------------------------------
+ Voltar para versão anterior (downgrade) localmente
+--------------------------------------------------------------
+
+	git reset --heard coloque-aqui-o-id-da-versão
+
+	exemplo: git reset --heard 98bf327
 
