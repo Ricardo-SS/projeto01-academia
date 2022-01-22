@@ -199,3 +199,12 @@ passos a seguir
 08 - git push da branch principal
 --------------------------------------------------------------
 >>>>>>> staging
+
+Criando arquivo gitignore para nao enviar arquivos especificos
+para o controle de versão.
+
+	touch .gitignore
+
+vai ser criado um arquivo de texto de mesmo nome, abra o arquivo 
+de texto e dentro dele coloque o nome e extessão do arquivo, no 
+caso de pastas, coloque o nome da pastasta seguida de um barra /
