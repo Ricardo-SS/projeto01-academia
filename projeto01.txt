@@ -1,0 +1,70 @@
+comandos git:
+
+Iniciar o diretorio dentro da pasta selecionada no windows 11, abrir a pasta > clik com botao direito
+> mostrar mais opções> Git Bash Here
+
+--------------------------------------------------------------
+	Tecle enter depois de cada comando
+--------------------------------------------------------------
+
+- Na janela de comando que abrir digite
+
+	git init 	(inicia o diretorio no git)
+
+- Comando para verificar os status dos arquivos
+
+	git staus	(verifica o status dos arquivos)
+
+-------------------------------------------------------------
+- Criando versão do codigo e adicionando arquivo
+
+	git add "NomeDoArquivoEsuaExteção"
+
+- Adicionando varios arquivos de uma so vez
+
+	git add .
+
+usando o comando git add seguido de um ponto todos os arquivos
+da pasta atual serão adicionados ao controle de versão;
+
+
+--------------------------------------------------------------
+- Criando a primeira versão - Criando commits
+
+
+	git commit -m "commit inicial"
+
+--------------------------------------------------------------	
+- Configurando email na primeira inicialização
+  coloque o email da sua conta do github no comando abaixo
+  e nome de usuario entre aspas duplas.
+
+	git config --global user.email "email.exemplo@email.com"
+
+	git config --global user.name "nome-de-usuarios-github"
+
+	git commit -m "commit inicial"	
+
+ 
+ O nome commit inicial é uma frase que pode ser subistituido por 
+ qualquer outra, serve apenas para identificar a versão.
+ 
+--------------------------------------------------------------
+- Enviar arquivos para a nuvem, github.
+
+	git push
+
+- Adicionando repositorio remoto
+
+	git remote add origin link-do-repositorio
+
+	git push
+	
+	git push --set-upstream origin master
+
+caso seja a primeira vez que esta usando vai aparecer a tela de loguin
+clik em entrar com navegador e depois em autorizar. Pronto os arquivos 
+serão enviado para o github.
+
+
+
