@@ -177,5 +177,16 @@ git git
 exemplo:
 
 	git merge staging
-
-
+--------------------------------------------------------------
+passos a seguir
+--------------------------------------------------------------
+01 - git pull da branch pricipal
+02 - gerar uma nova branch a partir da branch pricnipal
+03 - trabalahar e adicionar novas funcionalidades na nova branch
+04 - finalizar o trabalho na branch temporaria
+05 - git checkout na branch principal
+06 - gil pull
+07 - mergiar(unir) o códico da branch temporária com a branch 
+     principal (depois de testado)
+08 - git push da branch principal
+--------------------------------------------------------------
