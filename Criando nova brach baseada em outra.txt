@@ -18,4 +18,16 @@ principal usando o comando a seguir
 
 	git checkout -b nome-da-nova-branch nome-da-principal
 
-04 - 
+04 - depois de ter feito todas as alterações e adicionado os arquivos
+vamos verificar o estatus usando o comando
+
+	git status
+
+depois adcionar arquivos ou alterações
+
+	git add .
+
+e depois adicionar ao controle de versão criando um commit
+
+	git commit -m "descrição do que foi feito"
+
