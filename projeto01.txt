@@ -126,10 +126,33 @@ geralmente tem o nome de branch staging
 
 nesse caso o staging é o nome da nossa branch que queremos selecional
 
-- Verificando se esta selecionada corretamente (deve aparecer com * e em verde)
+- Verificando se estar selecionada corretamente (deve aparecer com * e em verde)
 
 	git branch
 
+- Verificando modificações nos arquivos.
+	
+	git status
 
+- Atualizando arquivos
+
+	git add .
+
+- criando nova versão (commit)
+
+	git commit -m "descrisão do que mudou"
+
+- enviando para a nuvem
+
+	git push
+
+Obs. se for a primeira vez que usa essa branch ele irá pedir para criar 
+a branch na novem.
+rode o comando que o git fornece. exemplo
+	
+	git push --set-upstream origin staging
+
+
+	
 	
 	
