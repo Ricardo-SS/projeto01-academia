@@ -153,6 +153,29 @@ rode o comando que o git fornece. exemplo
 	git push --set-upstream origin staging
 
 
+--------------------------------------------------------------
+ marge (combiando as branch depois de testado os codigos)
+--------------------------------------------------------------
 	
-	
-	
+- Entrar na branch que vai recber as atualizações. exemplo:
+
+	git checkout master
+
+- Verificar se foi selecionada corretamente
+
+	git branch
+
+	git pull 
+
+este comando git pull puxa a verção mais atual para a sua maquina
+local para garantir que você irá atualizar a versão mais atual
+
+Se tudo estiver correto vamos atualizar (merge)
+
+	git merge nome-de-onde-vem-as-atualizações 
+
+exemplo:
+
+	git merge staging
+
+
