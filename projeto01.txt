@@ -71,7 +71,7 @@ serão enviado para o github.
 
 	git commit -m "Arquivo de comandos atualizados"
 
-enviardo arquivos para nuvem
+- Enviardo arquivos para nuvem
 
 	git push
 
@@ -83,10 +83,53 @@ enviardo arquivos para nuvem
 	git reflog
 
 --------------------------------------------------------------
- Voltar para versão anterior (downgrade) localmente
+ Navegando entre versões
 --------------------------------------------------------------
+- Voltar para versão anterior (downgrade) localmente
+
 
 	git reset --heard coloque-aqui-o-id-da-versão
 
 	exemplo: git reset --heard 98bf327
 
+- Para voltar para a versão mais atual novamente basta executar 
+os comandos.
+	
+	git reflog 
+
+- Para verificar os ids das versões
+
+e pegar id desejado, se só tiver voltado uma versão o id da mais
+atual será o segundo id da lista. ai é so executar o comando
+	
+	git reset --heard coloque-aqui-o-id-da-versão
+
+O arquivo será atualizado localmente.
+
+--------------------------------------------------------------
+ Trabalhando com branch
+--------------------------------------------------------------
+- Verificar quais branch estão disponiveis
+
+	git branch
+
+- Criar uma nova branch
+
+	git branch staging	
+
+branch que esta recebendo atualizações de codigos nao testados
+geralmente tem o nome de branch staging
+
+- Selecionando a branch que vamos trabalhar
+
+	git checkout staging
+
+nesse caso o staging é o nome da nossa branch que queremos selecional
+
+- Verificando se esta selecionada corretamente (deve aparecer com * e em verde)
+
+	git branch
+
+
+	
+	
