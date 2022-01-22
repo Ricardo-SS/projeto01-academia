@@ -171,11 +171,31 @@ este comando git pull puxa a verção mais atual para a sua maquina
 local para garantir que você irá atualizar a versão mais atual
 
 Se tudo estiver correto vamos atualizar (merge)
+<<<<<<< HEAD
 
+=======
+git git 
+>>>>>>> staging
 	git merge nome-de-onde-vem-as-atualizações 
 
 exemplo:
 
 	git merge staging
+<<<<<<< HEAD
 
 
+=======
+--------------------------------------------------------------
+passos a seguir
+--------------------------------------------------------------
+01 - git pull da branch pricipal
+02 - gerar uma nova branch a partir da branch pricnipal
+03 - trabalahar e adicionar novas funcionalidades na nova branch
+04 - finalizar o trabalho na branch temporaria
+05 - git checkout na branch principal
+06 - gil pull
+07 - mergiar(unir) o códico da branch temporária com a branch 
+     principal (depois de testado)
+08 - git push da branch principal
+--------------------------------------------------------------
+>>>>>>> staging
