@@ -6,6 +6,7 @@ O codigo está comentado para facilitar o entendimento dos programadores.
 
 # Recursos:
 Cadastrar matrícula, aluno, sexo e idade.
+Alterar nome.
 Excluir aluno.
 Pesquisar aluno por matricula.
 Lista alunos matriculados.
