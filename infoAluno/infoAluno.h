@@ -12,7 +12,7 @@ void nao_encontrado();
 void lst_vazia ();
 void aluno_deletado();
 
-//Função de sub menus
+//Funcao de sub menus
 void menu_delete();
 void menu_iserir();
 
@@ -68,7 +68,7 @@ Lista ler_arquivo ();
 //Funcao salvar lista em binario
 void salvar_arquivo (Lista lista);
 
-//Funcao que vai inserir um aluno após o No
+//Funcao que vai inserir um aluno apï¿½s o No
 No* inserir_apos (Lista *plista, infoAluno dado, int mat);
 
 //Funcao para inserir antes do No
